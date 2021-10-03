@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+html,
+body {
+  margin: auto;
+  padding: 10px;
+  background: #f7f2e8;
+}
+
+#content {
+  margin: auto;
+  width: 75%;
+}
+
+.nav {
+  text-align: center;
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#main-2 {
+  font-size: 40px;
+  color: #343434;
+}
+
+#panda {
+  text-decoration: #0088ff;
+  text-decoration-line: underline;
+}
+
+p {
+  color: #343434;
+  text-transform: lowercase;
+  font-family: "DM Sans", sans-serif;
+}
+
+p.column {
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #343434;
+}
+
+a:hover {
+  color: #34343472;
+}
+
+#main {
+  font-size: 21px;
+  padding-left: 26px;
+  padding-right: 26px;
+}
+
+.row-intro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+#yves {
+  width: 60%;
+  margin-bottom: 50px;
+  box-shadow: 10px 10px #0088ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#icons:hover {
+  cursor: pointer;
+}
+.fab fa-github fa-lg {
+  color: #343434;
+}
+
+.fab fa-twitter fa-lg {
+  cursor: pointer;
+  padding-right: 20px;
+}
