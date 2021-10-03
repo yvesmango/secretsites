@@ -45,6 +45,10 @@ a {
   text-decoration: none;
 }
 
+a:link {
+  color: #343434;
+}
+
 a:visited {
   color: #343434;
 }
