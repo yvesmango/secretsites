@@ -10,7 +10,7 @@ body {
 
 #content {
   margin: auto;
-  width: 75%;
+  width: 60%;
 }
 
 .nav {
@@ -22,9 +22,17 @@ body {
   flex: 50%;
 }
 
+#main {
+  font-size: 21px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-bottom: 15%;
+}
+
 #main-2 {
-  font-size: 40px;
+  font-size: 26px;
   color: #343434;
+  padding-bottom: 1%;
 }
 
 #panda {
@@ -40,6 +48,7 @@ p {
   color: #343434;
   text-transform: lowercase;
   font-family: "DM Sans", sans-serif;
+  font-size: 18px;
 }
 
 p.column {
@@ -62,33 +71,104 @@ a:hover {
   color: #34343472;
 }
 
-#main {
-  font-size: 21px;
-  padding-left: 26px;
-  padding-right: 26px;
-}
-
 .row-intro {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
 #yves {
-  width: 60%;
+  width: 40%;
   margin-bottom: 50px;
   box-shadow: 10px 10px #0088ff;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+#yves2 {
+  width: 20%;
+  height: auto;
+  float: right;
+  margin-left: 4rem;
+  margin-bottom: 1rem;
+  padding-right: 5%;
+  shape-outside: circle();
+}
+
 #icons:hover {
   cursor: pointer;
 }
-.fab fa-github fa-lg {
-  color: #343434;
+
+.fa {
+  margin-right: 10px;
 }
 
-.fab fa-twitter fa-lg {
-  cursor: pointer;
-  padding-right: 20px;
+#para-content {
+  padding-bottom: 2%;
+}
+ 
+/* start of projects styling */
+
+h2 {
+  font-size: 30px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.box {
+  color: #fff;
+  border-radius: 0px;
+  padding: 0px;
+  object-fit: cover;
+}
+
+.project {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  box-shadow: 10px 10px #343434;
+}
+
+/* start of insights styling */
+
+.insights-intro {
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+}
+
+.insights-intro > li li {
+  list-style-type: disc;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  padding-bottom: 1em;
+}
+
+.insights-main {
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+  text-transform: lowercase;
+}
+
+.insights-main > li li {
+  list-style-type: none;
+  font-family: "DM Sans", sans-serif;
+  text-transform: lowercase;
+  list-style-type: disc;
+  font-size: 17px;
+  padding-bottom: 0.5em;
+}
+
+
+.quotes {
+  text-decoration: #0088ff;
+  text-decoration-line: underline;
 }
