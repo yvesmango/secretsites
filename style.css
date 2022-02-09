@@ -104,7 +104,7 @@ a:hover {
 }
 
 #para-content {
-  padding-bottom: 2%;
+  padding-bottom: 25%;
 }
  
 /* start of projects styling */
@@ -125,7 +125,7 @@ h2 {
   color: #fff;
   border-radius: 0px;
   padding: 0px;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project {
