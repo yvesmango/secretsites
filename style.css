@@ -116,6 +116,7 @@ h2 {
 .wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 200px;
   grid-gap: 30px;
   padding-left: 25px;
   padding-right: 25px;
@@ -133,7 +134,7 @@ h2 {
   margin-right: auto;
   width: 100%;
   height: 100%;
-  display: block;
+  display: grid;
   object-fit: cover;
   box-shadow: 10px 10px #343434;
 }
